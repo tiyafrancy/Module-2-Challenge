@@ -1,4 +1,4 @@
-## Module-2-Challenge
+### Module-2-Challenge
 
 In this module challenge, we have to create a script that loops through all the stocks for each quarter and outputs the required results.
 
@@ -12,24 +12,30 @@ we needed to create a macro-enabled excel worksheet which is saved as multiple_y
 
 # How to run the script 
 
-to run the script, open the multiple_year_stock_data.xlsx file and go to the developers tab, click on the visual basic, add a new module with the provided code (which is saved under code.bas) 
-<img width="789" alt="Screenshot 2025-01-05 at 8 55 16 PM" src="https://github.com/user-attachments/assets/8e61aeed-7e04-467f-85d3-e4da3f8b763a" />
+to run the script, open the multiple_year_stock_data.xlsx file and go to the developers tab, click on the visual basic 
 
+<img width="769" alt="Screenshot 2025-01-05 at 9 07 25 PM" src="https://github.com/user-attachments/assets/33c8a5e3-e9dd-40c4-8117-f09478315bfc" />
+
+add a new module with the provided code (which is saved under code.bas) 
+
+<img width="1370" alt="Screenshot 2025-01-05 at 9 05 44 PM" src="https://github.com/user-attachments/assets/05adc60c-ba4a-4954-975f-e38e6cba46de" />
 
 save the module as a macro enabled excel file and go to the developers tab in the excel sheet and then run macro, 'StockData' 
+
+<img width="432" alt="Screenshot 2025-01-05 at 9 09 23 PM" src="https://github.com/user-attachments/assets/fcb5bdd6-76d2-4f5e-9046-8488a23b1c87" />
 
 This will automatically generate the ticker symbol, quarterly change, percentage change and total stock volume.
 it also calculate greatest % increase, greatest % decrease and greatest total volume.
 
-some conditional formating is used in the quarterly change column. The negative changes are colored as red and the positive changes as green.no change between the opening and closing price is colored as white.
+some conditional formating is used in the quarterly change column. The negative changes are colored as red and the positive changes as green. If there is no change then the color is white.
 
-some number formattings are done in the percentage change column, greatest % increase cell and in the greatest % decrease cell.
-    
+some number formattings are also done in the percentage change column, greatest % increase cell and in the greatest % decrease cell.
 
-               
-             ws.Cells(cell_count, 11).Value = tickername                       'printing ticker names
+I have also done some formatting to the date column just to match with the required result. 
 
-   end if
+We have 4 sheets in this single workbook. We can loop through each sheets by using this single macro sub function and produce same outputs in each sheets. 
 
-next j
+# Acknowledgment 
+
+I have done this assignment using the help of some internet searches and some help from my SMU Instructor.
 
