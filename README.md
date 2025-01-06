@@ -2,17 +2,15 @@
 
 In this module challenge, we have to create a script that loops through all the stocks for each quarter and outputs the required results.
 
-we are provided with the multiple_year_stock_data.xlsx file
+we are provided with the 'multiple_year_stock_data.xlsx' file
 
 [Multiple_year_stock_data.xlsx](https://github.com/user-attachments/files/18312787/Multiple_year_stock_data.xlsx)
 
-we needed to creat a macro enabled excel worksheet which is saved as multiple_year_stock_data.xlsm
+we needed to create a macro-enabled excel worksheet which is saved as multiple_year_stock_data.xlsm in this repository
 
-This is the code that we used
+'code.bas' file in the repository contains the code to generate the results.
 
-
-[UploadingAttribute VB_Name = "Module1"
-Sub StockData()
+to run the script, open the multiple_year_stock_data.xlsm file and go to the developers tab, then run macro 'StockData'
 
 For Each ws In Worksheets               'loops through each worksheets
      
