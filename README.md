@@ -15,6 +15,7 @@ we needed to create a macro-enabled excel worksheet which is saved as multiple_y
 to run the script, open the multiple_year_stock_data.xlsx file and go to the developers tab, click on the visual basic 
 
 
+
 <img width="769" alt="Screenshot 2025-01-05 at 9 07 25 PM" src="https://github.com/user-attachments/assets/33c8a5e3-e9dd-40c4-8117-f09478315bfc" />
 
 
